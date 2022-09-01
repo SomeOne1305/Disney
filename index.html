@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->
     <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/1200px-Disney%2B_logo.svg.png" type="image/x-icon">
+    <!-- Fontawesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
     <title>Disney world</title>
 </head>
@@ -32,6 +34,51 @@
         <!-- <img src="https://www.disneyclips.com/images/images/mickey-mouse119.png" class="fixed"> -->
         <img src="https://i.pinimg.com/originals/5f/3b/c9/5f3bc92f9aec61bd99062249a9a87178.png" class="fixed">
     </header>
+    <div class="signUp">
+        <div class="register">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <defs>
+                    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%" gradientTransform="rotate(180deg)">
+                      <stop offset="4%" stop-color="rgba(255,0,198,1)" />
+                      <stop offset="50%" stop-color="rgba(138,4,247,1)" />
+                      <stop offset="100%" stop-color="rgba(148,22,227,1)" />
+                    </linearGradient>
+                  </defs>
+                <path fill="url(#gradient)" d="M0,128L48,112C96,96,192,64,288,53.3C384,43,480,53,576,96C672,139,768,213,864,229.3C960,245,1056,203,1152,176C1248,149,1344,139,1392,133.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+            <img src="https://i.pinimg.com/originals/b4/5e/01/b45e0150d2bb2ab9206ec8784d211bf5.png" alt="">
+        </div>
+        <div class="signForm">
+            <i class="fa fa-xmark" id="quit"></i>
+            <form action="">
+                <h3>Sign Up</h3>
+                <div class="email input">
+                    <input type="email" name="email" id="email" placeholder="Write your email...">
+                    <span>Email</span>
+                    <div class="line"></div>
+                </div>
+                <div class="password input">
+                    <input type="password" name="password" id="password" maxlength="10">
+                    <div class="eye">
+                        <i id="togglePassword" class="fa fa-eye"></i>
+                    </div>
+                    <span>Password</span>
+                    <div class="line"></div>
+                </div> 
+                <div class="password input">
+                    <input type="password" name="password" id="password" maxlength="10">
+                    <div class="eye">
+                        <i id="togglePassword" class="fa fa-eye"></i>
+                    </div>
+                    <span>Repeat password</span>
+                    <div class="line"></div>
+                </div> 
+                <div class="send">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
     <script src="./app.js"></script>
 </body>
 </html>
